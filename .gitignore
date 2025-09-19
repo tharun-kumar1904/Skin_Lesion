@@ -1,0 +1,40 @@
+# Large dataset files
+Dataset/
+**/Dataset/
+data/large_datasets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (keep small ones, exclude very large ones)
+# Uncomment if your .pth files are too large (>100MB)
+# *.pth
+# *.h5
+# *.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+static/temp/
+*.pth
